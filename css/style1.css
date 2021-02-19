@@ -1,0 +1,96 @@
+body {
+  background-color: #FFF8DC;
+}
+
+tbody a {
+  color: #696969;
+  text-decoration: none;
+}
+
+tbody a:hover {
+  color: #800000;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border: 1px;
+  border-collapse:collapse;
+  background-color: #FAF0E6;
+}
+
+td {
+  padding: 5px;
+}
+
+td.field {
+  width: 30%;
+  padding: 10px;
+  text-align: right;
+  font-weight: bold;
+  background-color: #98FB98;
+  border-bottom: solid 2px #D2B48C;
+}
+
+td.data {
+  padding: 10px;
+  border-bottom: solid 2px #D2B48C;
+}
+
+th {
+  background-color: #FFB6C1;
+  padding: 5px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.col3 {
+  flex: 25%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.col4 {
+  flex: 33%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.col6 {
+  flex: 50%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.col8 {
+  flex: 66%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.col9 {
+  flex: 75%;
+  float: left;
+  margin: 3px;
+  padding: 3px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
